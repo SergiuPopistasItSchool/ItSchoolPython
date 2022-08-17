@@ -11,6 +11,7 @@ for caracter in message:
         break
     print(caracter)
 
+print(bool(-100))
 print("This is a new test")
 
 """
