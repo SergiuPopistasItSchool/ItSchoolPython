@@ -108,3 +108,29 @@ Rawr Cirip Sss Sss
 Tigru Pasare Sarpe Sarpe
 
 """
+
+a = [1, 2, 3, 4, 12, 13]
+temp = a
+for i in temp:
+    print(a)
+    print(i)
+    if i % 2 == 1:
+        a.append(0)
+print(len(a))
+
+
+# v = ('a', 2, True) #boxing
+# (x, y, z) = v #unboking x = 'a' y = 2 z = True
+# print(z+y)
+
+x = 1
+while x <= 5:
+    x += 5
+print(x)
+
+x = 10
+y = '10'
+x, y = y, x
+print(x * 2)
+
+
