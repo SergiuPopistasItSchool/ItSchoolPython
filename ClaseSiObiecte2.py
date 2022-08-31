@@ -119,7 +119,7 @@ s1 = Student("Sergiu", 31, 5)
 s2 = Student("Stefan", 20, 9)
 s3 = Student("Alex", 25, 10)
 
-g1 = Group("Grupa1",2)
+g1 = Group("Grupa1", 2)
 g1.add_student(s1)
 g1.add_student(s2)
 g1.add_student(s3)
@@ -135,3 +135,6 @@ sa scoatem angajati
 sa vedem cat cheltuie departemantul pe salarii
 
 """
+
+print(float("4.0") + int("3"))
+
