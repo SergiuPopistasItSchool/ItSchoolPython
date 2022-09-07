@@ -44,3 +44,39 @@ for i in my_data:
         my_data_var += i
 
 print(my_data_var)
+
+
+def divideByTwo(param):
+    #print(bool(bool)) #bool-uri by default sunt egale cu True
+    if param == 0:
+        raise ZeroDivisionError
+    elif param < 0:
+        raise Exception
+    else:
+        return param/2
+
+data = 0
+
+#divideByTwo(data)
+
+def calc(x):
+    if x < 0:
+        raise Exception
+    elif x is not type(int):
+        raise TypeError
+
+var = 'c'
+try:
+    calc(var)
+    print("Printed")
+except TypeError:
+    print("Var is not a int")
+except:
+    print("Not calculated")
+
+else:
+    print("Was caluclated")
+
+
+
+
